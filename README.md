@@ -1,16 +1,17 @@
-# React + Vite
+# E-commerce DevStore - Prueba Técnica React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Desarrollo de una aplicación e-commerce desde cero construida con React, dando cumplimiento al 100% de los requerimientos exigidos en la prueba técnica.
 
-Currently, two official plugins are available:
+## Características y Requerimientos Cumplidos
+* **Enrutamiento:** Implementación de `react-router-dom` para la navegación entre el catálogo, el detalle de cada producto y la vista de resumen de compra (checkout).
+* **Manejo de Estado Global:** Uso de `useContext` (`CartContext`) para gestionar el carrito de compras, permitiendo agregar ítems, eliminar productos, modificar cantidades y vaciar el carrito al finalizar la compra.
+* **Interfaz de Usuario:** Diseño limpio y responsivo utilizando componentes de `react-bootstrap` e iconos de FontAwesome.
+* **Simulación de API:** Implementación de un mock asíncrono con Promises para simular el consumo y la latencia de una base de datos de productos.
+* **Arquitectura de Componentes:** Estructura modular basada en contenedores y componentes presentacionales (NavBar, ItemListContainer, ItemDetail, ItemQuantitySelector, Brief, Checkout, etc.).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tecnologías Utilizadas
+* React (Hooks: `useState`, `useEffect`, `useContext`)
+* Vite
+* React Router Dom
+* React-Bootstrap / Bootstrap
+* FontAwesome (SVG Icons)
